@@ -1,5 +1,6 @@
 {
   "name": "node-tools-tutorial",
+  "type": "module",
   "version": "1.0.0",
   "description": "Working through tutorial on TypeScript, ES modules, ESLint, the ESLint SpellCheck plugin, and Mocha",
   "main": "index.js",
@@ -7,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Turner",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
