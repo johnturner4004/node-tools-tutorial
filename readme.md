@@ -26,6 +26,11 @@
   Add:
     "plugins": ["spellcheck"],
     "rules": {
+      "react/no-unescaped-entities": "off",
+      "quotes": ["error", "single"],
+      "semi": ["error", "never"],
+      "indent": ["error", 2],
+      "no-multi-spaces": ["error"],
       "spellcheck/spell-checker": [
         "warn", {
           "skipWords": ["rect", "keydown"]
